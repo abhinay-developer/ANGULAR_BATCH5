@@ -1,0 +1,14 @@
+.container{
+    text-align: center;
+    height: 1110px;
+    background-color: red;
+    display: none;
+}
+
+@media (max-width:500px){
+    .container{
+        background-color: aqua;
+        display:block;
+        
+    }
+}
